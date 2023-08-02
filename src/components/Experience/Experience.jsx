@@ -14,6 +14,14 @@ const Experience = () => {
         <div className="work__experience">
           <h3>Work Experience</h3>
           <div className="experience__content">
+          <article className="experience__details">
+              <FaLaptopCode className='experience__details-icon'/>
+              <div>
+                <h4>JPMoragn Chase & Co.</h4>
+                <small className='text-light'>Software Development Intern</small>
+              </div>
+              
+            </article>
             <article className="experience__details">
               <FaLaptopCode className='experience__details-icon'/>
               <div>
